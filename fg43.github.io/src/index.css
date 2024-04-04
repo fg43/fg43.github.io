@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+}
+
+.main {
+  margin: auto auto;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  /*background-image: radial-gradient(farthest-corner at 10% 10%, #ffffff 0%, hsl(240deg, 0%, 60%) 100%);*/
+  background-image: radial-gradient(farthest-corner at 10% 10%, #ffffff 0%, hsl(240deg, 40%, 75%) 100%);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
