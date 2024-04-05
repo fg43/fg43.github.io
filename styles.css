@@ -1,3 +1,40 @@
 h1 {
-    color:blue;
+    color:lightskyblue;
+    text-shadow: 2px 2px darkcyan;
+    margin-left: 5px;
+    font-size:60px
+}
+
+body {
+    background-image: url(https://teachyourkidscode.com/wp-content/uploads/2022/02/best-coding-language-for-games.jpg);
+}
+
+.container {
+    perspective: 5.5cm;
+    background-color: rgba(100,100,100,0.8);
+    margin: auto;
+    width: 50%;
+    border: 3px solid skyblue;
+    padding: 10px;
+}
+
+.mainTitle {
+    height:100px;
+    width:800px;
+    font-weight:800;
+    transform:rotate3d(0, 1, 0, -10deg);
+}
+
+nav button {
+    width: 120px;
+    height: 60px;
+    background-color:rgba(64, 214, 255, 0.75);
+    color: white;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:white;
+    color: black;
 }
