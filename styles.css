@@ -15,7 +15,7 @@ body {
     perspective: 5.5cm;
     background-color: rgba(100,100,100,0.8);
     margin: auto;
-    width: 50%;
+    width: 70%;
     border: 3px solid skyblue;
     padding: 10px;
 }
@@ -27,16 +27,22 @@ body {
     transform:rotate3d(0, 1, 0, -10deg);
 }
 
+nav {
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+}
+
 nav button {
     width: 120px;
     height: 60px;
-    background-color:rgba(64, 214, 255, 0.75);
+    background-color:rgba(64, 214, 255, 0.65);
     color: white;
     cursor:pointer;
     font-size: 16px;
 }
 
 button:hover {
-    background-color:white;
+    background-color:rgba(255,255,255,0.65);
     color: black;
 }
