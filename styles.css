@@ -7,6 +7,8 @@ h1 {
 
 body {
     background-image: url(https://teachyourkidscode.com/wp-content/uploads/2022/02/best-coding-language-for-games.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .container {
