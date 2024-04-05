@@ -1,8 +1,10 @@
 h1 {
     color:lightskyblue;
-    text-shadow: 2px 2px darkcyan;
-    margin-left: 5px;
-    font-size:60px
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    margin-left: 25px;
+    font-size:60px;
+    display:inline;
+
 }
 
 body {
@@ -13,11 +15,13 @@ body {
 
 .container {
     perspective: 5.5cm;
-    background-color: rgba(100,100,100,0.8);
+    background-color: rgba(100,100,100,0.85);
     margin: auto;
     width: 70%;
     border: 3px solid skyblue;
     padding: 10px;
+    border-radius:25px;
+    margin-top:3%;
 }
 
 .mainTitle {
@@ -25,6 +29,7 @@ body {
     width:800px;
     font-weight:800;
     transform:rotate3d(0, 1, 0, -10deg);
+    display:inline-block;
 }
 
 nav {
@@ -45,4 +50,13 @@ nav button {
 button:hover {
     background-color:rgba(255,255,255,0.65);
     color: black;
+}
+
+.icon {
+    width:5em;
+    height:5em;
+    display:inline;
+    margin-left:80px;
+    margin-top: 30px;
+    margin-right:-40px;
 }
