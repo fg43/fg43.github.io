@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body class="black">
+        <div class="container-blue">
+            <h1 class="two">What is this?</h1>
+        </div>
+        <div style="margin: auto; width:80%">
+            <br/>
+            <hr/>
+            <br/>
+            <h3 class="two">This is a Cool Sinusoidal Thing</h1>
+            <br/>
+            <br/>
+            <canvas id="myCanvas" width="1200" height="600" style="border:1px solid #d3d3d3; background-color:white">
+          Your browser does not support the HTML canvas tag.</canvas>
+            <script>
+              var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            w = c.getAttribute("width");
+            h = c.getAttribute("height");
+            n = 300;
+            ctx.moveTo(0,h/2);
+            for(var i = 0; i<n; i++) {
+              ctx.lineTo(Math.sin(i)*i*2+i/60*w/2,Math.cos(i)*i*2+h/2);
+              ctx.stroke();
+            }
+            </script>
+          </div>
+          
+    </body>
+</html>

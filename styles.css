@@ -7,6 +7,19 @@ h1 {
 
 }
 
+h3 {
+    color:lightskyblue;
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    margin-left: 25px;
+    font-size:30px;
+    display:inline;
+
+}
+
+.two {
+    color:white;
+}
+
 body {
     background-image: url(https://teachyourkidscode.com/wp-content/uploads/2022/02/best-coding-language-for-games.jpg);
     background-size:cover;
@@ -22,6 +35,22 @@ body {
     padding: 10px;
     border-radius:25px;
     margin-top:3%;
+}
+
+.container-blue {
+    perspective: 5.5cm;
+    background-color: rgba(0, 149, 255, 0.653);
+    margin: auto;
+    width: 70%;
+    border: 3px solid skyblue;
+    padding: 10px;
+    border-radius:25px;
+    margin-top:3%;
+}
+
+.black {
+    background-image:none;
+    background-color:black;
 }
 
 .mainTitle {
