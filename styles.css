@@ -3,7 +3,7 @@ h1 {
     text-shadow: 2px 2px rgb(0, 110, 255);
     margin-left: 25px;
     font-size:60px;
-    display:inline;
+    display:inline-block;
 
 }
 
