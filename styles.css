@@ -74,7 +74,7 @@ body {
     height:100px;
     width:800px;
     font-weight:800;
-    transform:rotate3d(0, 1, 0, -10deg);
+    transform:rotate3d(0, 0, 1, -10deg) translate(20px, -50px);
     display:inline-block;
 }
 
