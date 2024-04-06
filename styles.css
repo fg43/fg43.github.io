@@ -1,6 +1,6 @@
 h1 {
     color:lightskyblue;
-    text-shadow: 2px 2px rgb(0, 110, 255);
+    text-shadow: -2px -2px rgb(0, 0, 0);
     margin-left: 25px;
     font-size:60px;
     display:inline-block;
@@ -9,7 +9,7 @@ h1 {
 
 h3 {
     color:lightskyblue;
-    text-shadow: 2px 2px rgb(0, 110, 255);
+    text-shadow: -2px -2px rgb(0, 7, 20);
     margin-left: 25px;
     font-size:30px;
     display:inline;
@@ -21,14 +21,31 @@ h3 {
 }
 
 body {
-    background-image: url(https://teachyourkidscode.com/wp-content/uploads/2022/02/best-coding-language-for-games.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back4 {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/525/039/small_2x/binary-code-background-abstract-technology-digital-binary-data-and-secure-data-concept-free-photo.jpg");
+}
+
+.back3 {
+    /*background-image: url("./media/posts/202010/121003365_1006412583209650_5397469700916662479_n_17968761646328715.jpg");*/
+    background-image: url("https://wallpapers.com/images/featured/cool-wolf-background-0w07sdpvwkdsk1u0.jpg");
+}
+
+.back2 {
+    background-image: url("https://wallpapers.com/images/featured/best-cool-background-40lkhq7b7tl3p1qw.jpg");
+}
+
+.back1 {
+    background-image: url("https://wallpapercave.com/wp/wp2553589.jpg");
 }
 
 .container {
     perspective: 5.5cm;
-    background-color: rgba(100,100,100,0.85);
+    background-color: rgba(255, 255, 255, 0.918);
     margin: auto;
     width: 70%;
     border: 3px solid skyblue;
@@ -75,6 +92,11 @@ nav button {
     cursor:pointer;
     font-size: 16px;
     margin-top:20px;
+}
+
+.navButtonFix {
+    display: inline-block;
+    margin-top:-19px;
 }
 
 button:hover {
